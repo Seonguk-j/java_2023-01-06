@@ -14,6 +14,8 @@ public class DoWhileExample {
 			inputString = scan.nextLine();	//입력은 스트링
 			System.out.println(inputString);
 		} while(!inputString.equals("q"));
+		System.out.println();
+		System.out.println("프로그램 종료");
 		scan.close();
 	}
 
